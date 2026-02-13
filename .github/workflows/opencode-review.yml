@@ -40,5 +40,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           model: cloudflare-ai-gateway/anthropic/claude-haiku-4-5
-          use_github_token: true
           agent: docs # use our Docs agent by default in this repo
